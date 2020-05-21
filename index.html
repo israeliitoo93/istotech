@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link REL="StyleSheet" HREF="css/estilos.css" TYPE="text/css" MEDIA="screen">
+    <link rel="icon" type="image/png" href="imagenes/logo.png">
+    <title>ISTOTECH</title>
+    <meta name="viewport" content="widht=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minmun-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Amiri:wght@700&family=Baloo+Tamma+2:wght@500&family=Bungee+Shade&family=Chonburi&family=Seaweed+Script&family=Vast+Shadow&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script>
+            $("document").ready(function()					
+            {	
+                /*boton cerrar*/
+                $(".cerrar").click(function()					
+                {				
+                    $(".div_dispositivo1, .div_dispositivo2, .div_dispositivo3").hide();
+                    $(".botones, h4").show();               
+                });
+                /*boton dispositivos*/
+                $(".div_dispositivo1, .div_dispositivo2, .div_dispositivo3").hide();
+                $(".boton1").click(function()					
+                {				
+                    $(".div_dispositivo1").show();
+                    $(".div_dispositivo2, .div_dispositivo3, .botones, h4").hide();                
+                });
+                $(".boton2").click(function()					
+                {				
+                    $(".div_dispositivo2").show();
+                    $(".div_dispositivo1, .div_dispositivo3, .botones, h4").hide();               
+                });
+                $(".boton3").click(function()					
+                {				
+                    $(".div_dispositivo3").show();
+                    $(".div_dispositivo1, .div_dispositivo2, .botones, h4").hide();               
+                });
+                /*dispositivo1*/
+                $(".foto2_2, .foto3_2, .foto4_2, .foto5_2, .foto6_2, .foto7_2, .foto8_2, .foto9_2, .foto10_2").hide();
+                $(".foto1").click(function()					
+                {				
+                    $(".foto1_2").show();
+                    $(".foto2_2, .foto3_2, .foto4_2, .foto5_2, .foto6_2, .foto7_2, .foto8_2, .foto9_2, .foto10_2").hide();                
+                });
+                $(".foto2").click(function()					
+                {				
+                    $(".foto2_2").show();
+                    $(".foto1_2, .foto3_2, .foto4_2, .foto5_2, .foto6_2, .foto7_2, .foto8_2, .foto9_2, .foto10_2").hide();               
+                });
+                $(".foto3").click(function()					
+                {				
+                    $(".foto3_2").show();
+                    $(".foto1_2, .foto2_2, .foto4_2, .foto5_2, .foto6_2, .foto7_2, .foto8_2, .foto9_2, .foto10_2").hide();               
+                });
+                $(".foto4").click(function()					
+                {				
+                    $(".foto4_2").show();
+                    $(".foto1_2, .foto2_2, .foto3_2, .foto5_2, .foto6_2, .foto7_2, .foto8_2, .foto9_2, .foto10_2").hide();               
+                });
+                $(".foto5").click(function()					
+                {				
+                    $(".foto5_2").show();
+                    $(".foto1_2, .foto2_2, .foto3_2, .foto4_2, .foto6_2, .foto7_2, .foto8_2, .foto9_2, .foto10_2").hide();               
+                });
+                $(".foto6").click(function()					
+                {				
+                    $(".foto6_2").show();
+                    $(".foto1_2, .foto2_2, .foto3_2, .foto4_2, .foto5_2, .foto7_2, .foto8_2, .foto9_2, .foto10_2").hide();               
+                });
+                $(".foto7").click(function()					
+                {				
+                    $(".foto7_2").show();
+                    $(".foto1_2, .foto2_2, .foto3_2, .foto4_2, .foto5_2, .foto6_2, .foto8_2, .foto9_2, .foto10_2").hide();               
+                });
+                $(".foto8").click(function()					
+                {				
+                    $(".foto8_2").show();
+                    $(".foto1_2, .foto2_2, .foto3_2, .foto4_2, .foto5_2, .foto6_2, .foto7_2, .foto9_2, .foto10_2").hide();               
+                });
+                $(".foto9").click(function()					
+                {				
+                    $(".foto9_2").show();
+                    $(".foto1_2, .foto2_2, .foto3_2, .foto4_2, .foto5_2, .foto6_2, .foto7_2, .foto8_2, .foto10_2").hide();               
+                });
+                $(".foto10").click(function()					
+                {				
+                    $(".foto10_2").show();
+                    $(".foto1_2, .foto2_2, .foto3_2, .foto4_2, .foto5_2, .foto6_2, .foto7_2, .foto8_2, .foto9_2").hide();               
+                });
+                /*dispositivo2*/
+                $(".foto21_2, .foto22_2, .foto23_2, .foto24_2, .foto25_2, .foto26_2, .foto27_2, .foto28_2, .foto29_2").hide();
+                $(".foto20").click(function()					
+                {				
+                    $(".foto20_2").show();
+                    $(".foto21_2, .foto22_2, .foto23_2, .foto24_2, .foto25_2, .foto26_2, .foto27_2, .foto28_2, .foto29_2").hide();                
+                });
+                $(".foto21").click(function()					
+                {				
+                    $(" .foto21_2").show();
+                    $(".foto20_2, .foto22_2, .foto23_2, .foto24_2, .foto25_2, .foto26_2, .foto27_2, .foto28_2, .foto29_2").hide();               
+                });
+                $(".foto22").click(function()					
+                {				
+                    $(".foto22_2").show();
+                    $(".foto20_2, .foto21_2, .foto23_2, .foto24_2, .foto25_2, .foto26_2, .foto27_2, .foto28_2, .foto29_2").hide();               
+                });
+                $(".foto23").click(function()					
+                {				
+                    $(".foto23_2").show();
+                    $(".foto20_2, .foto21_2, .foto22_2, .foto24_2, .foto25_2, .foto26_2, .foto27_2, .foto28_2, .foto29_2").hide();               
+                });
+                $(".foto24").click(function()					
+                {				
+                    $(".foto24_2").show();
+                    $(".foto20_2, .foto21_2, .foto22_2, .foto23_2, .foto25_2, .foto26_2, .foto27_2, .foto28_2, .foto29_2").hide();               
+                });
+                $(".foto25").click(function()					
+                {				
+                    $(".foto25_2").show();
+                    $(".foto20_2, .foto21_2, .foto22_2, .foto23_2, .foto24_2, .foto26_2, .foto27_2, .foto28_2, .foto29_2").hide();               
+                });
+                $(".foto26").click(function()					
+                {				
+                    $(".foto26_2").show();
+                    $(".foto20_2, .foto21_2, .foto22_2, .foto23_2, .foto24_2, .foto25_2, .foto27_2, .foto28_2, .foto29_2").hide();               
+                });
+                $(".foto27").click(function()					
+                {				
+                    $(".foto27_2").show();
+                    $(".foto20_2, .foto21_2, .foto22_2, .foto23_2, .foto24_2, .foto25_2, .foto26_2, .foto28_2, .foto29_2").hide();               
+                });
+                $(".foto28").click(function()					
+                {				
+                    $(".foto28_2").show();
+                    $(".foto20_2, .foto21_2, .foto22_2, .foto23_2, .foto24_2, .foto25_2, .foto26_2, .foto27_2, .foto29_2").hide();               
+                });
+                $(".foto29").click(function()					
+                {				
+                    $(".foto29_2").show();
+                    $(".foto20_2, .foto21_2, .foto22_2, .foto23_2, .foto24_2, .foto25_2, .foto26_2, .foto27_2, .foto28_2").hide();               
+                });
+                /*dispositivo3*/
+                $(".foto31_2, .foto32_2, .foto33_2, .foto34_2, .foto35_2, .foto36_2, .foto37_2, .foto38_2, .foto39_2").hide();
+                $(".foto30").click(function()					
+                {				
+                    $(".foto30_2").show();
+                    $(".foto31_2, .foto32_2, .foto33_2, .foto34_2, .foto35_2, .foto36_2, .foto37_2, .foto38_2, .foto39_2").hide();                
+                });
+                $(".foto31").click(function()					
+                {				
+                    $(" .foto31_2").show();
+                    $(".foto30_2, .foto32_2, .foto33_2, .foto34_2, .foto35_2, .foto36_2, .foto37_2, .foto38_2, .foto39_2").hide();               
+                });
+                $(".foto32").click(function()					
+                {				
+                    $(".foto32_2").show();
+                    $(".foto30_2, .foto31_2, .foto33_2, .foto34_2, .foto35_2, .foto36_2, .foto37_2, .foto38_2, .foto39_2").hide();               
+                });
+                $(".foto33").click(function()					
+                {				
+                    $(".foto33_2").show();
+                    $(".foto30_2, .foto31_2, .foto32_2, .foto34_2, .foto35_2, .foto36_2, .foto37_2, .foto38_2, .foto39_2").hide();               
+                });
+                $(".foto34").click(function()					
+                {				
+                    $(".foto34_2").show();
+                    $(".foto30_2, .foto31_2, .foto32_2, .foto33_2, .foto35_2, .foto36_2, .foto37_2, .foto38_2, .foto39_2").hide();               
+                });
+                $(".foto35").click(function()					
+                {				
+                    $(".foto35_2").show();
+                    $(".foto30_2, .foto31_2, .foto32_2, .foto33_2, .foto34_2, .foto36_2, .foto37_2, .foto38_2, .foto39_2").hide();               
+                });
+                $(".foto36").click(function()					
+                {				
+                    $(".foto36_2").show();
+                    $(".foto30_2, .foto31_2, .foto32_2, .foto33_2, .foto34_2, .foto35_2, .foto37_2, .foto38_2, .foto39_2").hide();               
+                });
+                $(".foto37").click(function()					
+                {				
+                    $(".foto37_2").show();
+                    $(".foto30_2, .foto31_2, .foto32_2, .foto33_2, .foto34_2, .foto35_2, .foto36_2, .foto38_2, .foto39_2").hide();               
+                });
+                $(".foto38").click(function()					
+                {				
+                    $(".foto38_2").show();
+                    $(".foto30_2, .foto31_2, .foto32_2, .foto33_2, .foto34_2, .foto35_2, .foto36_2, .foto37_2, .foto39_2").hide();               
+                });
+                $(".foto39").click(function()					
+                {				
+                    $(".foto39_2").show();
+                    $(".foto30_2, .foto31_2, .foto32_2, .foto33_2, .foto34_2, .foto35_2, .foto36_2, .foto37_2, .foto38_2").hide();               
+                });                
+            });
+        </script>
+    </head>
+    <body>        
+       <main>
+            <header>
+                <div class="div_logo_principal">
+                    <a href=""><img class="img_logo"src="imagenes/logo.png" alt"logo"></a>
+                </div>
+                <div class="div_nav_principal">
+                    <nav>
+                        <a href="">INICIO</a>
+                        <a href="#sobre_mi">SOBRE MI</a>
+                        <a href="#reparaciones">REPARACIONES</a>
+                        <a href="#contactos">CONTACTOS</a>
+                    </nav>
+                </div>
+            </header>
+            <div class="div_video">
+                <video src="imagenes/video1.mp4" autoplay muted loop></video>
+            </div>
+            <a name="sobre_mi"></a>
+            <div class="div_principal">
+                <br>
+                <div class="div_titulo_sobre">
+                    <h2>ISTOTECH</h2>
+                    <h1><span>SOBRE</span> MI</h1>
+                </div>
+                <div class="div_sobremi">
+                    <div class="div_foto_sobremi">
+                        <div class="foto_sobremi">
+                            <img class="img_yo"src="imagenes/foto.jpg" alt"logo">
+                        </div>
+                    </div>
+                    <div class="div_parrafo_sobremi">
+                        <p class="p_sobremi">
+                            <br>
+                            <span>¡Hola soy Israel!</span>
+                            <br>
+                            <br>
+                            Te presento mi emprendimiento, el cual es un Servicio Técnico en reparación 
+                            de dispositivos móviles. Una de mis aficiones es la electrónica, es por esto 
+                            que me he enfocado en la electrónica aplicada en dispositivos móviles. Mi 
+                            deseo es ir aprendiendo cada día más, como lo he ido haciendo hasta ahora, 
+                            con práctica, constancia y perseverancia. Quiero hacer de esta profesión mi 
+                            gran pasión, para así poder brindarles a cada uno de mis clientes un trabajo 
+                            eficaz y garantizado.
+                        </p>
+                    </div>
+                </div>
+                <a name="reparaciones"></a>
+                <div class="div_titulo_reparaciones">
+                    <h2>ISTOTECH</h2>
+                    <h1>MIS <span>REPARACIONES</span></h1>
+                </div>
+                <h4>Haga click en la imágenes para ver más</h4>                
+                <div class="botones">
+                    <div class="div_boton1">
+                        <img class="boton1"src="imagenes/20.jpg" alt"logo">
+                    </div>
+
+                    <div class="div_boton2">
+                        <img class="boton2" src="imagenes/44.jpg" alt"logo">
+                    </div>
+
+                    <div class="div_boton3">
+                        <img class="boton3" src="imagenes/37.jpg" alt"logo">
+                    </div>                     
+                </div>
+                <div class="div_dispositivo1">                        
+                    <div class="A1">
+                        <div class="div_fotos_pequeñas1">
+                            <div class="div_foto1">
+                                <img class="foto1"src="imagenes/1.jpg" alt"logo">
+                            </div>
+                            
+                            <div class="div_foto3">
+                                <img class="foto3" src="imagenes/3.jpg" alt"logo">
+                            </div>
+                            <div class="div_foto4">
+                                <img class="foto4" src="imagenes/11.jpg" alt"logo">
+                            </div>
+                            <div class="div_foto5">
+                                <img class="foto5" src="imagenes/5.jpg" alt"logo">
+                            </div>
+                            
+                            <div class="div_foto7">
+                                <img class="foto7" src="imagenes/7.jpg" alt"logo">
+                            </div>
+                            <div class="div_foto8">
+                                <img class="foto8" src="imagenes/8.jpg" alt"logo">
+                            </div>
+                            
+                            <div class="div_foto10">
+                                <img class="foto10" src="imagenes/20.jpg" alt"logo">
+                            </div>                
+                        </div>
+                        <div class="div_espacio_libre1">
+                            <img class="foto1_2"src="imagenes/1.jpg" alt"logo">    
+                                          
+                            <img class="foto3_2" src="imagenes/3.jpg" alt"logo">              
+                            <img class="foto4_2" src="imagenes/11.jpg" alt"logo">               
+                            <img class="foto5_2" src="imagenes/5.jpg" alt"logo">
+                            
+                            <img class="foto7_2" src="imagenes/7.jpg" alt"logo">
+                            <img class="foto8_2" src="imagenes/8.jpg" alt"logo">
+                            
+                            <img class="foto10_2" src="imagenes/20.jpg" alt"logo">
+                        </div>
+                    </div>  
+                    <div class="div_p_descripcion_reparacion1">
+                        <p class="p_descripcion_reparacion1">
+                            Reparaciones de placa base, ya sea por humedad, golpe o por cualquier 
+                            otro motivo que el dispositivo dejo de funcionar, realizamos un 
+                            diagnostico exhaustivo para llegar al problema y darle solución.
+                        </p>
+                    </div>
+                    <div class="div_cerrar">
+                        <div class="cerrar">
+                            CERRAR
+                        </div>
+                    </div>                                      
+                </div>
+                <div class="div_dispositivo2">
+                    <div class="A2">
+                        <div class="div_fotos_pequeñas2">
+                            <div class="div_foto20">
+                                <img class="foto20"src="imagenes/30.jpg" alt"logo">
+                            </div>
+                            
+                            <div class="div_foto22">
+                                <img class="foto22" src="imagenes/36.jpg" alt"logo">
+                            </div>
+                            <div class="div_foto23">
+                                <img class="foto23" src="imagenes/43.jpg" alt"logo">
+                            </div>
+                            <div class="div_foto24">
+                                <img class="foto24" src="imagenes/44.jpg" alt"logo">
+                            </div>
+                            
+                           
+                            <div class="div_foto27">
+                                <img class="foto27" src="imagenes/46.jpg" alt"logo">
+                            </div>
+                            <div class="div_foto28">
+                                <img class="foto28" src="imagenes/47.jpg" alt"logo">
+                            </div>
+                            <div class="div_foto29">
+                                <img class="foto29" src="imagenes/51.jpg" alt"logo">
+                            </div>                   
+                        </div>
+                        <div class="div_espacio_libre2"> 
+                            <img class="foto20_2"src="imagenes/30.jpg" alt"logo">    
+                                          
+                            <img class="foto22_2" src="imagenes/36.jpg" alt"logo">              
+                            <img class="foto23_2" src="imagenes/43.jpg" alt"logo">               
+                            <img class="foto24_2" src="imagenes/44.jpg" alt"logo">
+                            
+                            <img class="foto27_2" src="imagenes/46.jpg" alt"logo">
+                            <img class="foto28_2" src="imagenes/47.jpg" alt"logo">
+                            <img class="foto29_2" src="imagenes/51.jpg" alt"logo">
+                        </div>
+                    </div> 
+                    <div class="div_p_descripcion_reparacion2">
+                        <p class="p_descripcion_reparacion2">
+                            Reparamos tu dispositivo, sea cual sea. Realizamos todo tipo de cambio de 
+                            pantallas, baterías, tapas y cualquier otro componente que este en mal 
+                            estado de tu teléfono móvil o tablet.
+                            <br>
+                            Dispongo de repuestos ORIGINALES.
+                            <br>
+                            <br>
+                            ¡Consultame!
+                        </p>
+                    </div> 
+                    <div class="div_cerrar">
+                        <div class="cerrar">
+                            CERRAR
+                        </div>
+                    </div>                
+                </div>
+                <div class="div_dispositivo3">
+                    <div class="A3">
+                        <div class="div_fotos_pequeñas3">
+                            <div class="div_foto30">
+                                <img class="foto30"src="imagenes/52.jpg" alt"logo">
+                            </div>
+                            <div class="div_foto31">
+                                <img class="foto31" src="imagenes/53.jpg" alt"logo">
+                            </div>
+                            <div class="div_foto32">
+                                <img class="foto32" src="imagenes/54.jpg" alt"logo">
+                            </div>
+                            <div class="div_foto33">
+                                <img class="foto33" src="imagenes/55.jpg" alt"logo">
+                            </div>
+                            <div class="div_foto34">
+                                <img class="foto34" src="imagenes/56.jpg" alt"logo">
+                            </div>
+                            <div class="div_foto35">
+                                <img class="foto35" src="imagenes/57.jpg" alt"logo">
+                            </div>
+                            <div class="div_foto36">
+                                <img class="foto36" src="imagenes/58.jpg" alt"logo">
+                            </div>                   
+                        </div>
+                        <div class="div_espacio_libre3">
+                            <img class="foto30_2"src="imagenes/52.jpg" alt"logo">    
+                            <img class="foto31_2" src="imagenes/53.jpg" alt"logo">               
+                            <img class="foto32_2" src="imagenes/54.jpg" alt"logo">              
+                            <img class="foto33_2" src="imagenes/55.jpg" alt"logo">               
+                            <img class="foto34_2" src="imagenes/56.jpg" alt"logo">
+                            <img class="foto35_2" src="imagenes/57.jpg" alt"logo">
+                            <img class="foto36_2" src="imagenes/58.jpg" alt"logo">
+                        </div>
+                    </div> 
+                    <div class="div_p_descripcion_reparacion3">
+                        <p class="p_descripcion_reparacion3">
+                            También reparamos software, bloqueos, cuentas Google, bloqueados en logo y muchos más.<br>
+                            <br>
+                            <br>
+                            ¡No dudes en contactarme!
+                        </p>
+                    </div>
+                    <div class="div_cerrar">
+                        <div class="cerrar">
+                            CERRAR
+                        </div>
+                    </div>                 
+                </div>
+                <div class="div_istotech_yo">
+                    <div class="istotech_yo">
+                        <img class="img_istotech_yo" src="imagenes/logo2.png" alt"logo">
+                    </div>                    
+                </div>
+                <footer>
+                    <h2>ISTOTECH</h2>
+                    <h1>CONTACTOS</h1>
+                    <a name="contactos"></a>
+                    <div class="logos_contacto">
+
+                        <div class="logo_whatsapp">
+                            <a href="https://wa.me/633606401" target="_blank"><img class="whatsapp" src="imagenes/whatsapp.png" alt"logo"></a>
+                        </div>
+
+                        <div class="logo_facebook">
+                            <a href="https://www.facebook.com/ISTOTECH-342987156215294/" target="_blank"><img class="facebook" src="imagenes/facebook.png" alt"logo"></a>
+                        </div>
+
+                        <div class="logo_instagram">
+                            <a href="https://www.instagram.com/israeliitoo7/?hl=es" target="_blank"><img class="instagram" src="imagenes/instagram.png" alt"logo"></a>
+                        </div>
+
+                        <div class="logo_correo">
+                            <a href="mailto:israeliitoo93@gmial.com" target="_blank"><img class="correo" src="imagenes/correo.png" alt"logo"></a>
+                        </div>
+
+                        <div class="logo_telefono">
+                            <a href="tel:+34633606401" target="_blank"><img class="telefono" src="imagenes/llamada.png" alt"logo"></a>
+                        </div>    
+                    </div>
+                    <div class="div_footer_logo">
+                        <div class="footer_logo">
+                            <a href=""><img class="img_footer_logo"src="imagenes/logo.png" alt"logo"></a>
+                        </div>                    
+                    </div>
+                    <p class="p_ultimo">
+                        &copy; 2020 <span class="span_istotech">ISTOTECH</span> Diseñado por <a href="#sobre_mi">ISRAEL</a>
+                    </p>
+                </footer>
+            </div>
+        </main>        
+    </body>
+</html>

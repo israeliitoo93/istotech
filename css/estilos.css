@@ -1,0 +1,844 @@
+html::-webkit-scrollbar
+{
+    width: 10px;
+    background-color: black;    
+}
+html::-webkit-scrollbar-thumb
+{
+    background-color: #2D9EF7;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+body
+{
+    background:linear-gradient(black, #2D9EF7, black);
+	background-attachment:fixed;
+    background-size: cover;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -ms-user-select:none;
+}
+main
+{
+    width: 80%;
+    margin: auto;
+}
+header
+{
+    display: flex;  
+    flex-direction: row;
+    background-color: black;
+    opacity: 0.8;
+    border-radius: 0px 0px 0px 0px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+.div_logo_principal
+{
+    width: 5%;
+    margin: 0px 0px 0px 0px;
+}
+.img_logo
+{
+    width: 100%;
+}
+.div_nav_principal
+{
+    width: 80%;
+    margin: 0px 0px 0px 0px;
+}
+nav
+{
+    width: 100%;
+    margin: 10px 0px 0px 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+nav a
+{
+    color:#2D9EF7;
+	font-size:25px;
+	text-decoration: none;
+    font-family: 'Amiri', serif;
+    margin: 0px 0px 0px 0px;
+}
+nav a:hover
+{
+    color: white;
+    transition:all 0.5s ease;
+}
+video
+{
+    width: 100%;
+}
+.div_principal
+{
+    background-color: white;
+    margin: -25px 0px 0px 0px;
+}
+.div_titulo_sobre
+{
+    background-color: white;
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+}
+h2 
+{
+    font-family: 'Amiri', serif;
+    text-align: center;
+    color: white;
+}
+h1
+{
+    font-family: 'Amiri', serif;
+    text-align: center;
+    color:#2D9EF7;
+}
+span
+{
+    background-color: black;
+}
+.div_principal .div_sobremi .div_parrafo_sobremi p span
+{
+    background-color: white;
+}
+.div_sobremi
+{
+    width: 100%;
+    background-color: white;
+    margin: 0px 0px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+.div_foto_sobremi
+{
+    width: 40%;
+    margin: 0px 0px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    margin: 50px 0px 50px 0px;
+   
+
+}
+.foto_sobremi
+{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+
+}
+.div_parrafo_sobremi
+{
+    width: 50%;
+    margin: 0px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    
+}
+.img_yo
+{
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    border-radius: 15px;
+}
+.div_foto_sobremi:hover
+{
+    transform:scale(1.2,1.2);
+	transition:all 4s ease;
+}
+
+.p_sobremi
+{
+
+    padding: 0px 40px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    font-size: 20px;
+    text-align: center;
+}
+h3
+{
+    text-align: center;
+    margin: 50px 0px 0px 0px;
+}
+.div_parrafo_sobremi p span
+{
+    font-size: 30px;
+}
+.botones
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    margin: 40px 0px 0px 0px;
+    width: 100%;
+}
+.div_boton1, .div_boton2, .div_boton3
+{
+    width: 15%;
+    text-align: center;
+}
+.boton1, .boton2, .boton3
+{
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    border-radius: 5px;    
+}
+.boton1:hover
+{
+    box-shadow: 20px 20px 20px black;
+    background-color: black;
+    cursor: pointer;
+    transition:all 0.5s ease;
+}
+.boton2:hover
+{
+    box-shadow: 20px 20px 20px black;
+    background-color: black;
+    cursor: pointer;
+    transition:all 0.5s ease;
+}
+.boton3:hover
+{
+    box-shadow: 20px 20px 20px black;
+    background-color: black;
+    cursor: pointer;
+    transition:all 0.5s ease;
+}
+h4
+{
+    text-align: center;
+    margin: 30px 0px 0px 0px;
+}
+/********************************************div_dispositivo1********************************************/
+.div_dispositivo1
+{
+    width: 100%;
+    margin: 40px 0px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+.A1
+{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.div_fotos_pequeñas1
+{
+    margin: 0px 0px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;   
+    width: 100%;
+}
+.div_espacio_libre1
+{
+    width: 90%;
+    margin: 20px 0px 0px 0px;
+}
+.div_p_descripcion_reparacion1
+{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around; 
+}
+.p_descripcion_reparacion1
+{
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+    font-size: 30px;
+}
+.div_foto1, .div_foto2, .div_foto3, .div_foto4, .div_foto5, .div_foto6, .div_foto7, .div_foto8, .div_foto9, .div_foto10
+{
+    width: 10%;
+}
+.foto1, .foto2, .foto3, .foto4, .foto5, .foto6, .foto7, .foto8, .foto9, .foto10
+{
+    width: 100%;
+    border-radius: 5px;
+}
+.div_fotos_pequeñas1 img:hover
+{
+    transform:scale(1.1,1.1);
+    transition:all 0.5s ease;
+    cursor: pointer;
+}
+.foto1_2, .foto2_2, .foto3_2, .foto4_2, .foto5_2, .foto6_2, .foto7_2, .foto8_2, .foto9_2, .foto10_2
+{
+    width: 100%;
+    box-shadow: 20px 20px 20px black;
+    border-radius: 5px;
+}
+.div_cerrar
+{
+    width: 10%;
+}
+.cerrar
+{
+    font-family: 'Amiri', serif;
+    color: #2D9EF7;
+    background-color: black;
+    width: auto;
+    height: 30px;
+    text-align: center;
+    font-size: 20px;
+    padding: 5px;
+    margin: 0px 0px 0px 0px;
+    border-radius: 3px;
+}
+.cerrar:hover
+{
+    background-color:#2D9EF7;
+    cursor: pointer;
+    color: white;
+}
+
+/************************************************************************************************************/
+/***************************************div_dispositivo2******************************************************/
+.div_dispositivo2
+{
+    width: 100%;
+    margin: 40px 0px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+.A2
+{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.div_fotos_pequeñas2
+{
+    margin: 0px 0px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;   
+    width: 100%;
+}
+.div_espacio_libre2
+{
+    width: 90%;
+    margin: 20px 0px 0px 0px;
+}
+.div_p_descripcion_reparacion2
+{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+}
+.p_descripcion_reparacion2
+{
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+    font-size: 30px;
+}
+.div_foto20, .div_foto21, .div_foto22, .div_foto23, .div_foto24, .div_foto25, .div_foto26, .div_foto27, .div_foto28, .div_foto29
+{
+    width: 10%;
+}
+.foto20, .foto21, .foto22, .foto23, .foto24, .foto25, .foto26, .foto27, .foto28, .foto29
+{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.div_fotos_pequeñas2 img:hover
+{
+    transform:scale(1.1,1.1);
+    transition:all 0.5s ease;
+    cursor: pointer;
+}
+.foto20_2, .foto21_2, .foto22_2, .foto23_2, .foto24_2, .foto25_2, .foto26_2, .foto27_2, .foto28_2, .foto29_2
+{
+    width: 100%;
+    box-shadow: 20px 20px 20px black;
+    border-radius: 5px;
+}
+/*******************************************************************************************************************/
+/**********************************************div_dispositivo3*****************************************************/
+.div_dispositivo3
+{
+    width: 100%;
+    margin: 40px 0px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+.A3
+{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.div_fotos_pequeñas3
+{
+    margin: 0px 0px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;  
+    width: 100%;
+}
+.div_espacio_libre3
+{
+    width: 90%;
+    margin: 20px 0px 0px 0px;
+}
+.div_p_descripcion_reparacion3
+{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+}
+.p_descripcion_reparacion3
+{
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+    font-size: 30px;
+}
+.div_foto30, .div_foto31, .div_foto32, .div_foto33, .div_foto34, .div_foto35, .div_foto36
+{
+    width: 10%;
+}
+.foto30, .foto31, .foto32, .foto33, .foto34, .foto35, .foto36
+{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.div_fotos_pequeñas3 img:hover
+{
+    transform:scale(1.1,1.1);
+    transition:all 0.5s ease;
+    cursor: pointer;
+}
+.foto30_2, .foto31_2, .foto32_2, .foto33_2, .foto34_2, .foto35_2, .foto36_2
+{
+    width: 100%;
+    box-shadow: 20px 20px 20px black;
+    border-radius: 5px;
+}
+/*****************************************************************************************************************/
+/****************************************************footer*******************************************************/
+.div_istotech_yo
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    margin: 100px 0px -24px 0px;    
+}
+.istotech_yo
+{
+    width: 50%;
+    margin: 0px 0px 0px 0px;
+}
+.img_istotech_yo
+{
+    width: 100%;
+}
+footer
+{
+    background-color: black;
+}
+.logos_contacto
+{
+    margin: 0px 0px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    width: 100%;
+}
+.logo_whatsapp, .logo_facebook, .logo_instagram, .logo_correo, .logo_telefono
+{
+    width: 5%;
+    margin: 0px 0px 0px 0px;
+}
+.whatsapp, .facebook, .instagram, .correo, .telefono
+{
+    width: 100%;
+}
+footer p
+{
+    text-align: center;
+    color: white;
+    margin: 0px 0px 0px 0px;
+}
+.div_footer_logo
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+.footer_logo
+{
+    width: 20%;
+    margin: 20px 0px 0px 0px;
+}
+.img_footer_logo
+{
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+}
+.span_istotech
+{
+    color: #2D9EF7;
+    margin: 0px 20px 0px 0px;
+}
+footer h2
+{
+    color: black;
+}
+footer p a
+{
+    text-decoration: none;
+    color: #2D9EF7;
+}
+.p_ultimo
+{
+    font-size: 100%;
+    width: 100%;
+}
+@media screen and (min-width: 0px) and (max-width: 500px)
+{
+    main
+    {
+        width: 95%;
+        margin: auto;
+    }
+    .div_logo_principal
+    {
+        width: 15%;
+    }
+    .div_nav_principal
+    {
+        width: 85%;
+    }
+    nav
+    {
+        margin: 20px 0px 0px 0px;
+    }
+    nav a
+    {
+        font-size: 12px;
+    }
+    .div_sobremi
+    {
+        flex-direction: column;
+        align-items:center;
+    }
+    .div_foto_sobremi
+    {
+        width: 90%;
+
+    }
+    .div_foto_sobremi:hover
+    {
+        transform:scale(1,1);
+        transition:all 0s ease;
+    }
+    .div_parrafo_sobremi
+    {
+        width: 90%;
+        margin: -50px 0px 0px 0px;
+    }
+    .p_sobremi
+    {
+        padding: 10px;
+        margin: 0px 0px 0px 0px;
+        font-size: 18px;
+    }
+    .div_boton1, .div_boton2, .div_boton3
+    {
+       width: 25%;
+    }
+    .istotech_yo
+    {
+        width: 70%;
+        margin: 0px 0px 0px 0px;
+    }
+    .logo_whatsapp, .logo_facebook, .logo_instagram, .logo_correo, .logo_telefono
+    {
+        width: 10%;
+    }
+    .footer_logo
+    {
+        width: 30%;
+        margin: 20px 0px 0px 0px;
+    }
+    /*********************************************************/
+    .div_dispositivo1
+    {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        margin: 0px 0px 0px 0px;
+    }
+    .A1
+    {
+        width: 95%;
+        margin: 0px 0px 0px 0px;
+    }
+    .div_p_descripcion_reparacion1
+    {
+        width: 80%;
+        margin: 50px 0px 0px 0px;
+    }
+    .p_descripcion_reparacion1
+    {
+        margin: 0px 0px 0px 0px;
+        font-size: 18px;
+    }
+    /***********************************************************/
+    .div_dispositivo2
+    {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        margin: 0px 0px 0px 0px;
+    }
+    .A2
+    {
+        width: 95%;
+        margin: 0px 0px 0px 0px;
+    }
+    .div_p_descripcion_reparacion2
+    {
+        width: 80%;
+        margin: 50px 0px 0px 0px;
+    }
+    .p_descripcion_reparacion2
+    {
+        margin: 0px 0px 0px 0px;
+        font-size: 18px;
+    }
+    /********************************************************************/
+    .div_dispositivo3
+    {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        margin: 0px 0px 0px 0px;
+    }
+    .A3
+    {
+        width: 95%;
+        margin: 0px 0px 0px 0px;
+    }
+    .div_p_descripcion_reparacion3
+    {
+        width: 80%;
+        margin: 50px 0px 0px 0px;
+    }
+    .p_descripcion_reparacion3
+    {
+        margin: 0px 0px 0px 0px;
+        font-size: 18px;
+    }
+    .div_cerrar
+    {
+        width: 95%;
+        margin: 20px 0px 0px 0px;
+    }
+ 
+}
+
+@media screen and (min-width: 501px) and (max-width: 800px)
+{
+    .div_logo_principal
+    {
+        width: 12%;
+    }
+    .div_nav_principal
+    {
+        width: 85%;
+    }
+    nav
+    {
+        margin: 10px 0px 0px 0px;
+    }
+    nav a
+    {
+        font-size: 15px;
+    }
+    /********************************************************/
+    .div_sobremi
+    {
+        flex-direction: column;
+        align-items:center;
+    }
+    .div_foto_sobremi
+    {
+        width: 90%;
+    }
+    .div_parrafo_sobremi
+    {
+        width: 90%;
+    }
+    .p_sobremi
+    {
+        padding: 10px;
+        margin: 0px 0px 0px 0px;
+        font-size: 18px;
+    }
+    /******************************************/
+    .div_boton1, .div_boton2, .div_boton3
+    {
+       width: 25%;
+    }
+    .istotech_yo
+    {
+        width: 70%;
+        margin: 0px 0px 0px 0px;
+    }
+    .logo_whatsapp, .logo_facebook, .logo_instagram, .logo_correo, .logo_telefono
+    {
+        width: 10%;
+    }
+    .footer_logo
+    {
+        width: 30%;
+        margin: 20px 0px 0px 0px;
+    }
+    /*********************************************************/
+    .div_dispositivo1
+    {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        margin: 0px 0px 0px 0px;
+    }
+    .A1
+    {
+        width: 95%;
+        margin: 0px 0px 0px 0px;
+    }
+    .div_p_descripcion_reparacion1
+    {
+        width: 80%;
+        margin: 50px 0px 0px 0px;
+    }
+    .p_descripcion_reparacion1
+    {
+        margin: 0px 0px 0px 0px;
+        font-size: 18px;
+    }
+    /***********************************************************/
+    .div_dispositivo2
+    {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        margin: 0px 0px 0px 0px;
+    }
+    .A2
+    {
+        width: 95%;
+        margin: 0px 0px 0px 0px;
+    }
+    .div_p_descripcion_reparacion2
+    {
+        width: 80%;
+        margin: 50px 0px 0px 0px;
+    }
+    .p_descripcion_reparacion2
+    {
+        margin: 0px 0px 0px 0px;
+        font-size: 18px;
+    }
+    /********************************************************************/
+    .div_dispositivo3
+    {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        margin: 0px 0px 0px 0px;
+    }
+    .A3
+    {
+        width: 95%;
+        margin: 0px 0px 0px 0px;
+    }
+    .div_p_descripcion_reparacion3
+    {
+        width: 80%;
+        margin: 50px 0px 0px 0px;
+    }
+    .p_descripcion_reparacion3
+    {
+        margin: 0px 0px 0px 0px;
+        font-size: 18px;
+    }
+    .div_cerrar
+    {
+        width: 95%;
+        margin: 20px 0px 0px 0px;
+    }
+}
+@media screen and (min-width: 801px) and (max-width: 1100px)
+{
+    .div_logo_principal
+    {
+        width: 10%;
+    }
+    .div_nav_principal
+    {
+        width: 85%;
+    }
+    nav
+    {
+        margin: 20px 0px 0px 0px;
+    }
+    nav a
+    {
+        font-size: 20px;
+    }
+    .p_descripcion_reparacion1
+    {
+        margin: 0px 0px 0px 0px;
+        font-size: 20px;
+    }
+    .p_descripcion_reparacion2
+    {
+        margin: 0px 0px 0px 0px;
+        font-size: 20px;
+    }
+    .p_descripcion_reparacion3
+    {
+        margin: 0px 0px 0px 0px;
+        font-size: 20px;
+    }
+}
